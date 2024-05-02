@@ -32,7 +32,7 @@ def generate_lyrics(prompt):
 
 # Main Streamlit app
 def main():
-    st.title("Music Generation with GPT-NEO")
+    st.title("Music Generation with GPT-SUNO")
     st.write("Enter a prompt to generate music lyrics:")
     prompt = st.text_area("Prompt")
     duration = st.slider("Duration", min_value=1, max_value=10, value=5, step=1)
