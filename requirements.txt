@@ -1,0 +1,9 @@
+streamlit
+aiofiles
+python-multipart
+python-dotenv
+requests
+uvicorn
+openai
+transformers
+replicate
